@@ -1,0 +1,35 @@
+In your own terms, define the following terms:
+
+- What is HTTP?
+HTTP stands for Hypertext Transfer Protocol and is a protocol (set of rules) for how browsers and servers communicate. 
+
+- What is a URL?
+URL stands for Uniform Resource Locator and is the unique address  used to locate an Internet resource. 
+
+- What is DNS?
+DNS stands for Domain Name System and acts as a type of phonebook for the Internet - it takes a human-readable URL and 
+translates it to a corresponding IP address. 
+
+- What is a query string?
+The query string is the part of a URL that specifies parameters used to identify a ceratin resource or page. 
+
+- What are two HTTP verbs and how are they different?
+GET is a verb that requests data without the intent to cause side effects or change server data - simply to get information.
+POST is a verb that sends data with the intent to cause side effects or changes to the server data. 
+
+- What is an HTTP request?
+An HTTP request is a request sent to a server from a client using HTTP protocol. 
+
+- What is an HTTP response?
+An HTTP response is the server's response to a client's HTTP request using HTTP protocol. The response sends back several things such
+as HTML, CSS, JS, etc. 
+
+- What is an HTTP header? Give a couple examples of request and response headers you have seen.
+An HTTP header is additional information that can be passed by clients or servers during HTTP requests or responses. 
+HTTP request headers may include: hostname, language, cookies.
+HTTP response headers may include: content(typically text/html for web pages), date/time the server thinks it is, cookies, caching information. 
+
+- What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
+First, the URL is translated to its corresponding IP address, then a request is made to that IP address for content. The server sends back a response
+which results in the browser rendering a DOM from the HTML. The DOM will find anything else, such as CSS, JS, images, etc for which the browser makes 
+separate requests in which the aforementioned process will continue until the page is loaded for the user. 
